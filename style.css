@@ -4,15 +4,17 @@
 }
 
 nav {
-    display: flex;
+    /* display: flex;
     justify-content: flex-end;
     align-items: center;
     height: fit-content;
     background-color: #002B5B;
-    padding: 0em 2em;
+    padding: 0em 2em; */
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: #002B5B;
 }
 
+/* 
 nav ul {
     text-transform: uppercase;
     padding: 0em 1em;
@@ -22,7 +24,41 @@ nav ul a {
     text-decoration: none;
     color: #F9F5EB;
     font-size: 1.4em;
+} */
+
+.navbar-brand {
+    font-family: 'Bobby Jones';
+    font-size: 1em;
+    color: #ffffff;
 }
+
+/* .navbar-brand:hover,
+.nav-link:hover,
+.nav-link.active:hover {
+    color: #ffffffa7;
+} */
+
+/* {
+    color: #ffffffaf;
+} */
+
+/* .nav-link {
+    color: #ffffff;
+} */
+
+/* .navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: #ffffff;
+} */
+
+.navbar {
+    margin-bottom: 0em;
+}
+
+/* button.navbar-toggler,
+span.navbar-toggler-icon {
+    color: #ffffff;
+} */
 
 header {
     margin: 0px;
@@ -95,9 +131,9 @@ body {
     padding-left: 0.2em;
 }
 
-nav img {
+/* nav img {
     width: 100%;
-}
+} */
 
 #logo {
     width: 75px;
@@ -107,7 +143,7 @@ nav img {
 
 @media (max-width: 768px) {
 
-    nav,
+    /* nav,
     nav ul {
         flex-direction: column;
         align-items: center;
@@ -126,7 +162,7 @@ nav img {
 
     nav {
         padding: 0em;
-    }
+    } */
 
     .schedule img {
         width: 100%;
