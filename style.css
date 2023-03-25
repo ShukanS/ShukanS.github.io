@@ -151,6 +151,7 @@ body {
 h1 {
     font-family: 'Antonio', sans-serif;
     font-weight: 800;
+    text-transform: uppercase;
 }
 
 .display-2 {
@@ -160,6 +161,7 @@ h1 {
 h4 {
     font-family: 'Lexend Mega', sans-serif;
     font-size: 1em;
+    text-transform: uppercase;
 }
 
 table {
