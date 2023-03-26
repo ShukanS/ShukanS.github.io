@@ -256,10 +256,6 @@ footer .btn-primary {
 footer .btn-primary:hover {
     background-color: #ffffff;
     color: #1F1122;
-    border: none;
-    font-size: 2em;
-    margin: auto;
-    margin-top: 10px;
 }
 
 
@@ -337,11 +333,11 @@ footer .btn-primary:hover {
     }
 
     footer .display-2 {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 
     footer .btn-primary {
-        font-size: 1.3em;
+        font-size: 1.5em;
         margin-top: 2px;
     }
 
