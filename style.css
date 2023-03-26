@@ -28,18 +28,39 @@ nav ul a {
 } */
 
 .navbar-brand,
-#teamlogos {
+#teamlogos,
+#footerlogo {
     font-family: 'Antonio', sans-serif;
     font-size: 1em;
     color: #FFCC00;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
-    vertical-align: middle;
+}
+
+#footerlogo {
+    width: 120px;
+    height: 95px;
+    margin-right: 0.5em;
 }
 
 .navbar-brand img {
     content: url(sportslogowhite.png);
+}
+
+.social-logos svg {
+    height: 100%;
+    width: 45px;
+    margin: 0px 10px;
+    fill: #FFCC00;
+}
+
+.social-logos svg:hover {
+    fill: #ffffff;
+}
+
+.social-logos {
+    align-items: center;
 }
 
 
@@ -211,6 +232,35 @@ table {
     color: #ffffff;
 }
 
+footer {
+    background-color: #1F1122;
+    padding: 3em;
+    font-family: 'Antonio', sans-serif;
+    text-transform: uppercase;
+}
+
+footer .display-2 {
+    color: #ffffff;
+    font-size: 4em;
+}
+
+footer .btn-primary {
+    background-color: #FFCC00;
+    color: #1F1122;
+    border: none;
+    font-size: 2em;
+    margin: auto;
+    margin-top: 10px;
+}
+
+footer .btn-primary:hover {
+    background-color: #ffffff;
+    color: #1F1122;
+    border: none;
+    font-size: 2em;
+    margin: auto;
+    margin-top: 10px;
+}
 
 
 /* Navbar Responsive */
@@ -256,11 +306,41 @@ table {
     table {
         font-size: 1.4em;
     }
+
+    footer .display-2 {
+        font-size: 2.5em;
+    }
+
+    footer .btn-primary {
+        font-size: 2em;
+        margin-top: 0px;
+    }
+
 }
 
 @media (min-width: 768px) {
     .navbar-brand img {
         width: 45px;
         height: 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    footer h2 {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer .col-xl-3 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 2em 0em;
+    }
+
+    footer .col-xl-2 {
+        margin-top: 1em;
     }
 }
