@@ -297,6 +297,35 @@ footer .btn-primary:hover {
     }
 }
 
+@media (max-width: 1200px) {
+
+    footer h2 {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer .col-xl-3 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0.5em 0em;
+    }
+
+    footer .col-xl-2 {
+        margin-top: 1em;
+    }
+
+    footer .display-2 {
+        font-size: 2.5em;
+    }
+
+    footer .btn-primary {
+        font-size: 2em;
+        margin-top: 10px;
+    }
+}
+
 @media (max-width: 576px) {
     #teamlogos img {
         width: 50px;
@@ -321,30 +350,12 @@ footer .btn-primary:hover {
         width: 20px;
         margin: 0px 5px;
     }
+}
 
-    @media (min-width: 768px) {
-        .navbar-brand img {
-            width: 45px;
-            height: 40px;
-        }
+
+@media (min-width: 768px) {
+    .navbar-brand img {
+        width: 45px;
+        height: 40px;
     }
-
-    @media (max-width: 1200px) {
-
-        footer h2 {
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-
-        footer .col-xl-3 {
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            margin: 0.5em 0em;
-        }
-
-        footer .col-xl-2 {
-            margin-top: 0.5em;
-        }
-    }
+}
