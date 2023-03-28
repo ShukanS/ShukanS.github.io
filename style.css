@@ -258,8 +258,85 @@ footer .btn-primary:hover {
     color: #1F1122;
 }
 
+.team-name {
+    font-family: 'Antonio', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #1F1122;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+    margin: 0.3em 0em;
+}
+
+.roster {
+    font-family: 'Lexend Mega', sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 2em;
+}
+
+#rosterlogo img {
+    width: 400px;
+    margin: 3.5em;
+    margin-left: 5em;
+}
+
+.carousel-item {
+    transition: transform .5s ease-in;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+    transition: opacity .5s .5s;
+}
 
 /* Navbar Responsive */
+
+@media (max-width: 1200px) {
+
+    footer h2 {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer .col-xl-3 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0.5em 0em;
+    }
+
+    footer .col-xl-2 {
+        margin-top: 1em;
+    }
+
+    footer .display-2 {
+        font-size: 2.5em;
+    }
+
+    footer .btn-primary {
+        font-size: 2em;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    #rosterlogo img {
+        width: 300px;
+        margin: 3.5em;
+    }
+
+    .roster {
+        font-size: 1.4em;
+        margin-bottom: 2em;
+    }
+
+    .team-name {
+        font-size: 3em;
+    }
+
+}
 
 @media (max-width: 768px) {
 
@@ -291,34 +368,18 @@ footer .btn-primary:hover {
     #logo {
         padding-top: 1em;
     }
-}
 
-@media (max-width: 1200px) {
-
-    footer h2 {
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+    #rosterlogo img {
+        margin: 0em;
     }
 
-    footer .col-xl-3 {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 0.5em 0em;
+    .roster {
+        font-size: 1.4em;
+        margin-bottom: 2em;
     }
 
-    footer .col-xl-2 {
-        margin-top: 1em;
-    }
-
-    footer .display-2 {
-        font-size: 2.5em;
-    }
-
-    footer .btn-primary {
-        font-size: 2em;
-        margin-top: 10px;
+    .team-name {
+        margin-top: 0em;
     }
 }
 
@@ -345,6 +406,21 @@ footer .btn-primary:hover {
         height: 100%;
         width: 20px;
         margin: 0px 5px;
+    }
+
+    #rosterlogo img {
+        width: 180px;
+        margin-top: 1em;
+    }
+
+    .roster {
+        font-size: 1em;
+        margin-bottom: 2em;
+    }
+
+    .team-name {
+        font-size: 2.2em;
+        margin: 0.3em 0em;
     }
 }
 
