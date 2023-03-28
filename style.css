@@ -388,6 +388,25 @@ body {
     border-bottom: none !important;
 }
 
+.addedspace {
+    height: 35vh;
+    background-color: #1F1122;
+}
+
+#schedule-title .display-2 {
+    background-color: #1F1122;
+    color: #ffffff;
+    margin: 0;
+    padding: 0.5em;
+    font-size: 3em;
+}
+
+.accordion-header {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Navbar Responsive */
 
 @media (max-width: 1200px) {
