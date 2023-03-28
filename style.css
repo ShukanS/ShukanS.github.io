@@ -98,7 +98,7 @@ header {
 }
 
 thead {
-    background-color: #1F1122;
+    background-color: #4f3355;
     color: #ffffff;
 }
 
@@ -184,16 +184,20 @@ h1 {
     ;
 }
 
+body {
+    background-color: #1F1122;
+}
+
 .display-2 {
     font-weight: bold;
-    color: #1F1122;
+    color: #ffffff;
 }
 
 h4 {
     font-family: 'Lexend Mega', sans-serif;
     font-size: 1em;
     text-transform: uppercase;
-    color: #1F1122;
+    color: #ffffff;
 }
 
 table {
@@ -295,9 +299,10 @@ body {
 }
 
 .accordion-button {
-    background-color: #1F1122;
+    background-color: #4f3355;
     color: #ffffff;
     font-family: 'Lexend Mega', sans-serif;
+    font-size: 0.75em;
 }
 
 .accordion-button svg {
@@ -393,12 +398,10 @@ body {
     background-color: #1F1122;
 }
 
+#teamstitle .display-2,
+#standings-title .display-2,
 #schedule-title .display-2 {
-    background-color: #1F1122;
-    color: #ffffff;
-    margin: 0;
-    padding: 0.5em;
-    font-size: 3em;
+    margin-top: 0.3em;
 }
 
 .accordion-header {
