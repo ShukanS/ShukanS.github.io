@@ -407,6 +407,16 @@ body {
     align-items: center;
 }
 
+#spacearoundschedule {
+    padding: 5em;
+    background-color: #1F1122;
+    padding-top: 1em;
+}
+
+.schedulepage {
+    background-color: #1F1122;
+}
+
 /* Navbar Responsive */
 
 @media (max-width: 1200px) {
@@ -455,7 +465,7 @@ body {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     /* nav,
     nav ul {
@@ -498,6 +508,11 @@ body {
     .team-name {
         margin-top: 0em;
     }
+
+    #spacearoundschedule {
+        padding: 1.5em;
+        background-color: #1F1122;
+    }
 }
 
 @media (max-width: 576px) {
@@ -538,6 +553,11 @@ body {
     .team-name {
         font-size: 2.2em;
         margin: 0.3em 0em;
+    }
+
+    #spacearoundschedule {
+        padding: 1em;
+        background-color: #1F1122;
     }
 }
 
