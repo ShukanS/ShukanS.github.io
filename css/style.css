@@ -3,29 +3,13 @@
     src: url('/bobbyjones.ttf') format('truetype');
 }
 
+
+/* Navbar css */
 nav {
-    /* display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: fit-content;
-    background-color: #002B5B;
-    padding: 0em 2em; */
     font-family: 'Antonio', sans-serif;
     background-color: #1F1122;
     text-transform: uppercase;
 }
-
-/* 
-nav ul {
-    text-transform: uppercase;
-    padding: 0em 1em;
-}
-
-nav ul a {
-    text-decoration: none;
-    color: #F9F5EB;
-    font-size: 1.4em;
-} */
 
 .navbar-brand,
 #teamlogos,
@@ -38,70 +22,33 @@ nav ul a {
     letter-spacing: 2px;
 }
 
-#footerlogo {
-    width: 120px;
-    height: 95px;
-    margin-right: 0.5em;
-}
-
 .navbar-brand img {
     content: url(/img/sportslogowhite.png);
 }
 
-.social-logos svg {
-    height: 100%;
-    width: 45px;
-    margin: 0px 10px;
-    fill: #FFCC00;
-}
-
-.social-logos svg:hover {
-    fill: #ffffff;
-}
-
-.social-logos {
-    align-items: center;
-}
-
-
-/* .navbar-brand:hover,
-.nav-link:hover,
-.nav-link.active:hover {
-    color: #ffffffa7;
-} */
-
-/* {
-    color: #ffffffaf;
-} */
-
-/* .nav-link {
-    color: #ffffff;
-} */
-
-/* .navbar-nav .nav-link.active,
-.navbar-nav .show>.nav-link {
-    color: #ffffff;
-} */
-
 .navbar {
     margin-bottom: 0em;
 }
-
-/* button.navbar-toggler,
-span.navbar-toggler-icon {
-    color: #ffffff;
-} */
 
 header {
     margin: 0px;
     padding: 0px;
 }
 
-thead {
-    background-color: #4f3355;
-    color: #ffffff;
+#title {
+    flex-grow: 2;
+    font-family: 'Bobby Jones', sans-serif;
+    font-size: 1.6em;
+    padding-left: 0.2em;
 }
 
+#logo {
+    width: 75px;
+}
+
+/* Navbar Css ends */
+
+/* Banner css begins */
 .banner h1 {
     font-family: 'Antonio', sans-serif;
     font-weight: bold;
@@ -135,46 +82,13 @@ thead {
     background-image: linear-gradient(0deg, rgba(67, 147, 115, 0.7), rgba(3, 60, 145, 0.7), rgba(203, 21, 91, 0.7)), url('/img/banner.JPG');
 }
 
+/* Banner css ends */
+
 
 body {
     margin: 0px;
-}
-
-/* .container {
-    display: flex;
-    justify-content: center;
-    height: fit-content;
-    height: 15em;
-    padding: 2em 2em;
-} */
-
-/* .schedule {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-} */
-
-.schedule img {
-    width: 100%;
-}
-
-.schedulecontainer {
-    background-color: bisque;
-}
-
-#title {
-    flex-grow: 2;
-    font-family: 'Bobby Jones', sans-serif;
-    font-size: 1.6em;
-    padding-left: 0.2em;
-}
-
-/* nav img {
-    width: 100%;
-} */
-
-#logo {
-    width: 75px;
+    background-color: #1F1122;
+    min-height: 100vh;
 }
 
 h1 {
@@ -182,10 +96,6 @@ h1 {
     font-weight: 800;
     text-transform: uppercase;
     ;
-}
-
-body {
-    background-color: #1F1122;
 }
 
 .display-2 {
@@ -200,10 +110,17 @@ h4 {
     color: #ffffff;
 }
 
+
+/* standings css begins */
 table {
     font-family: 'Antonio', sans-serif;
     font-size: 2em;
     text-transform: uppercase;
+}
+
+thead {
+    background-color: #4f3355;
+    color: #ffffff;
 }
 
 #teamlogos img {
@@ -236,6 +153,16 @@ table {
     color: #ffffff;
 }
 
+/* standings css ends */
+
+
+/* footer css begins */
+#footerlogo {
+    width: 120px;
+    height: 95px;
+    margin-right: 0.5em;
+}
+
 footer {
     background-color: #1F1122;
     padding: 3em;
@@ -262,6 +189,25 @@ footer .btn-primary:hover {
     color: #1F1122;
 }
 
+.social-logos svg {
+    height: 100%;
+    width: 45px;
+    margin: 0px 10px;
+    fill: #FFCC00;
+}
+
+.social-logos svg:hover {
+    fill: #ffffff;
+}
+
+.social-logos {
+    align-items: center;
+}
+
+/* footer css ends */
+
+
+/* teams pags css begins */
 .team-name {
     font-family: 'Antonio', sans-serif;
     font-weight: bold;
@@ -294,8 +240,16 @@ footer .btn-primary:hover {
     transition: opacity .5s .5s;
 }
 
-body {
-    min-height: 100vh;
+/* teams page css ends */
+
+
+/* schedule css begins */
+.schedule img {
+    width: 100%;
+}
+
+.schedulecontainer {
+    background-color: bisque;
 }
 
 .accordion-button {
@@ -420,7 +374,13 @@ body {
     background-color: #1F1122;
 }
 
-/* Navbar Responsive */
+/* end of schedule css */
+
+
+
+
+
+/* Responsive */
 
 @media (max-width: 1200px) {
 
@@ -469,28 +429,6 @@ body {
 }
 
 @media (max-width: 767px) {
-
-    /* nav,
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    nav ul {
-        padding: 0.3em 0em;
-        margin: 0;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: linear-gradient(#002B5B, #002f64);
-    }
-
-    nav {
-        padding: 0em;
-    } */
-
     .schedule img {
         width: 100%;
     }
@@ -515,6 +453,11 @@ body {
     #spacearoundschedule {
         padding: 1.5em;
         background-color: #1F1122;
+    }
+
+    .navbar-brand img {
+        width: 40px;
+        height: 35px;
     }
 }
 
@@ -561,13 +504,5 @@ body {
     #spacearoundschedule {
         padding: 1em;
         background-color: #1F1122;
-    }
-}
-
-
-@media (min-width: 768px) {
-    .navbar-brand img {
-        width: 45px;
-        height: 40px;
     }
 }
