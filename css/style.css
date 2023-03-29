@@ -402,7 +402,8 @@ footer .btn-primary:hover {
 }
 
 #aboutus p,
-.aboutus p {
+.aboutus p,
+#aboutusmain p {
     font-family: 'Lexend Deca', sans-serif;
     text-align: center;
     color: #ffffff;
@@ -410,7 +411,7 @@ footer .btn-primary:hover {
     margin: 1em;
 }
 
-#aboutus h1 {
+#aboutusmain h1 {
     margin-top: 0.3em;
 }
 
@@ -475,6 +476,11 @@ footer .btn-primary:hover {
         font-size: 3em;
     }
 
+    #aboutus h1,
+    #aboutusmain h1 {
+        font-size: 4em;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -507,6 +513,12 @@ footer .btn-primary:hover {
     .navbar-brand img {
         width: 40px;
         height: 35px;
+    }
+
+    #aboutus p,
+    .aboutus p,
+    #aboutusmain p {
+        font-size: 1em;
     }
 }
 
@@ -553,5 +565,20 @@ footer .btn-primary:hover {
     #spacearoundschedule {
         padding: 1em;
         background-color: #1F1122;
+    }
+
+    #aboutus p,
+    .aboutus p,
+    #aboutusmain p {
+        font-size: 0.75em;
+    }
+
+    #aboutus h1,
+    #aboutusmain h1 {
+        font-size: 2.5em;
+    }
+
+    #aboutus h2 {
+        font-size: 2em;
     }
 }
