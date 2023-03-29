@@ -427,6 +427,24 @@ footer .btn-primary:hover {
 
 /* About Us Section CSS Ends */
 
+/* Game rules section CSS Beings */
+
+.gamerules p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #ffffff;
+    font-size: 1.2em;
+    margin: 1em;
+}
+
+.gamerules li {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #ffffff;
+    font-size: 0.75em;
+    margin: 1em;
+}
+
+/* Game rules section CSS ends */
+
 
 /* Responsive */
 
