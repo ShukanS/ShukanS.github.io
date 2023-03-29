@@ -3,6 +3,11 @@
     src: url('/fonts/bobbyjones.ttf') format('truetype');
 }
 
+html,
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
 
 /* Navbar css */
 nav {
