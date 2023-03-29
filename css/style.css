@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Bobby Jones';
-    src: url('bobbyjones.ttf') format('truetype');
+    src: url('/bobbyjones.ttf') format('truetype');
 }
 
 nav {
@@ -45,7 +45,7 @@ nav ul a {
 }
 
 .navbar-brand img {
-    content: url(sportslogowhite.png);
+    content: url(/img/sportslogowhite.png);
 }
 
 .social-logos svg {
@@ -132,7 +132,7 @@ thead {
     align-items: center;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(0deg, rgba(67, 147, 115, 0.7), rgba(3, 60, 145, 0.7), rgba(203, 21, 91, 0.7)), url('banner.JPG');
+    background-image: linear-gradient(0deg, rgba(67, 147, 115, 0.7), rgba(3, 60, 145, 0.7), rgba(203, 21, 91, 0.7)), url('/img/banner.JPG');
 }
 
 
