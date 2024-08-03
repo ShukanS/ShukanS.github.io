@@ -183,7 +183,7 @@ footer .display-2 {
     font-size: 4em;
 }
 
-footer .btn-primary, .banner .btn-primary {
+footer .btn-primary, .banner .btn-primary, .youth-olympics-text .btn-primary {
     background-color: #FFCC00;
     color: #1F1122;
     border: none;
@@ -455,7 +455,35 @@ footer .btn-primary:hover, .banner .btn-primary:hover {
 
 /* Game rules section CSS ends */
 
+.youth-olympics {
+    background: #ffffff;
+}
 
+.youth-olympics .container-fluid{
+    padding: 0;
+}
+
+.youth-olympics img {
+    width: 100%;
+}
+
+.youth-olympics .display-2 {
+    color: #d22929;
+}
+
+.youth-olympics-text {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 15px;
+}
+
+.youth-olympics-text p {
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 1em;
+}
 /* Responsive */
 
 @media (max-width: 1200px) {
